@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind override (global CSS or module) */
+/* global.css or App.css */
+.react-phone-input input {
+    @apply text-sm px-3 py-[6px] w-full;
+  }
+  
+  .react-phone-input .PhoneInputCountry {
+    @apply pr-1;
+  }
+  
+  

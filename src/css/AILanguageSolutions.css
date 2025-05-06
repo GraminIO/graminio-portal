@@ -1,0 +1,209 @@
+:where([class^="ri-"])::before {
+  content: "\f3c2";
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.font-pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #4f46e5 0%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-section {
+  background-image: url("/ai_language_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero_real_time_section{
+  background-image: url("/real_time_language_translation_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero_voice_section{
+  background-image: url("/voice_language_translation_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.language_hero_section{
+  background-image: url("/language_learning_supports.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.multimedia_hear_section {
+  background-image: url("/multimedia_language_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Document_Analysis_hero{
+  background-image: url("/Document_Analysis_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Automated_Summarization-section {
+  background-image: url("/Automated_Summarization_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Question-Capabilities-section {
+  background-image: url("/Question-Answer-Capabilities_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Data-Extraction-section {
+  background-image: url("/Data-Extraction-Organization.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Chatbots_section{
+  background-image: url("/Chatbots_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Sentiment_Analysis-section{
+  background-image: url("/Sentiment_Analysis_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Recommendations-section{
+  background-image: url("/Personalize_Recommendations_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.predictive_Analytics-section{
+  background-image: url("/Predictive-Analytics-Solutions_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body .to-secondary {
+  --tw-gradient-to: #0d2b4b var(--tw-gradient-to-position);
+}
+body .from-primary {
+  --tw-gradient-from: #ca8a04 var(--tw-gradient-from-position);
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.custom-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d1d5db;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+.custom-checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+}
+
+.custom-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e5e7eb;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+
+.switch-slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .switch-slider {
+  background-color: #666666;
+}
+
+input:checked + .switch-slider:before {
+  transform: translateX(24px);
+}
+
+.message-bubble {
+  max-width: 80%;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+}
+
+.message-bubble.sent {
+  background-color: #666666;
+  color: white;
+  margin-left: auto;
+  border-top-right-radius: 4px;
+}
+
+.message-bubble.received {
+  background-color: #f3f4f6;
+  border-top-left-radius: 4px;
+}
+
+.progress-bar {
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e5e7eb;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #666666;
+  border-radius: 4px;
+}
+
+.rounded-button {
+  border-radius: 8px;
+}
+
+
+.hero-section {
+  background-image: url('https://public.readdy.ai/ai/img_res/8965579c733ab55af786825858367fff.jpg');
+  background-size: cover;
+  background-position: center;
+}
