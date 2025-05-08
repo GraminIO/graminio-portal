@@ -274,7 +274,7 @@ const StepByStepContact = () => {
                     if (step1Errors.name)
                       setStep1Errors({ ...step1Errors, name: "" });
                   }}
-                  className={`w-full px-5 py-4 text-lg border-2 text-black border-gray-200 rounded-[5px] focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition-all ${
+                  className={`w-full px-5 py-4 text-sm md:text-lg border-2 text-black border-gray-200 rounded-[5px] focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition-all ${
                     step1Errors.name ? "border-red-500" : ""
                   }`}
                   autoFocus
@@ -298,7 +298,7 @@ const StepByStepContact = () => {
                     if (step1Errors.service)
                       setStep1Errors({ ...step1Errors, service: "" });
                   }}
-                  className={`w-full px-5 py-4 text-lg border-2 text-black border-gray-200 rounded-[5px] focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition-all ${
+                  className={`w-full px-5 py-4 text-sm md:text-lg border-2 text-black border-gray-200 rounded-[5px] focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition-all ${
                     step1Errors.service ? "border-red-500" : ""
                   }`}
                 >

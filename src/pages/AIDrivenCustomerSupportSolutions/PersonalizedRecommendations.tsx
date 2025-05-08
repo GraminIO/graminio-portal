@@ -15,7 +15,7 @@ const PersonalizedRecommendations: React.FC = () => {
   };
   return (
     <>
-      <section className="Recommendations-section pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Recommendations-section pt-20 pb-20 md:pt-40 md:pb-32 relative">
         <div className="absolute inset-0 bg-[#000000c4] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -35,10 +35,10 @@ const PersonalizedRecommendations: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section id="how-it-works" className="py-16 bg-white">
+      <section id="how-it-works" className="py-10 md:py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">How It Works</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">How It Works</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our advanced algorithm learns from your preferences and behaviors
               to deliver increasingly relevant recommendations.
@@ -170,10 +170,10 @@ const PersonalizedRecommendations: React.FC = () => {
         </div>
       </section>
 
-      {/* <section className="py-16 bg-white">
+      {/* <section className="py-10 md:py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">What Our Users Say</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">What Our Users Say</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Discover how our personalized recommendations have transformed the
               experience for our users.
@@ -251,10 +251,10 @@ const PersonalizedRecommendations: React.FC = () => {
       </section> */}
 
       {/* Features Section */}
-      <section className="py-16 bg-blue-50">
+      <section className="py-10 md:py-16 bg-blue-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Advanced Recommendation Features
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">

@@ -31,7 +31,7 @@ const VoiceTextMessaging: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="hero_voice_section pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="hero_voice_section pt-20 md:pt-28 pb-20 md:pt-40 md:pb-32 relative">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -51,7 +51,7 @@ const VoiceTextMessaging: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-100">
+      <section id="features" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -143,7 +143,7 @@ const VoiceTextMessaging: React.FC = () => {
       </section>
 
       {/* How It Works */}
-      <section id="how-it-works" className="py-20">
+      <section id="how-it-works" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -303,7 +303,7 @@ const VoiceTextMessaging: React.FC = () => {
       </section>
 
       {/* Voice Messaging Deep Dive */}
-      <section id="voice-messaging" className="py-20 bg-gray-100">
+      <section id="voice-messaging" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -479,7 +479,7 @@ const VoiceTextMessaging: React.FC = () => {
       </section>
 
       {/* Business Applications */}
-      {/* <section id="business" className="py-20">
+      {/* <section id="business" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -575,7 +575,7 @@ const VoiceTextMessaging: React.FC = () => {
       </section> */}
 
       {/* Integration Section */}
-      <section className="py-20 bg-gray-100">
+      <section className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">

@@ -31,7 +31,7 @@ const LanguageLearningSupport: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="language_hero_section pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="language_hero_section pt-20 md:pt-28 pb-20 md:pt-40 md:pb-32 relative">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -51,7 +51,7 @@ const LanguageLearningSupport: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-100">
+      <section id="features" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -146,7 +146,7 @@ const LanguageLearningSupport: React.FC = () => {
       </section>
 
       {/* Personalized Learning */}
-      <section id="personalized" className="py-20">
+      <section id="personalized" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -306,7 +306,7 @@ const LanguageLearningSupport: React.FC = () => {
       </section>
 
       {/* Conversation Practice */}
-      <section id="conversation" className="py-20 bg-gray-100">
+      <section id="conversation" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
@@ -463,7 +463,7 @@ const LanguageLearningSupport: React.FC = () => {
       </section>
 
       {/* Progress Tracking */}
-      <section id="progress" className="py-20">
+      <section id="progress" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -638,7 +638,7 @@ const LanguageLearningSupport: React.FC = () => {
       </section>
 
       {/* Learning Methods */}
-      <section id="methods" className="py-20 bg-gray-100">
+      <section id="methods" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">

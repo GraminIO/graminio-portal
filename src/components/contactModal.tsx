@@ -249,7 +249,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
 
             <button
               onClick={handleClose}
-              className="absolute top-4 right-4 text-white hover:text-[#D4A017] transition-colors duration-300"
+              className="absolute top-3.5 right-4 text-white hover:text-[#D4A017] transition-colors duration-300"
               aria-label="Close"
             >
               <svg
@@ -349,13 +349,14 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                   </motion.h2>
 
                   <form onSubmit={handleSubmit} className="p-8">
-                    <div className="grid gap-5 mb-4 grid-cols-2 content-start">
+                    <div className="flex flex-wrap gap-4">
                       <motion.div
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.2 }}
+                        className="relative w-full md:w-[calc(50%-0.5rem)]"
                       >
-                        <div className="relative">
+                        <div className="relative flex">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none h-[48px]">
                             <svg
                               className="w-5 h-5 text-[#ca8a04]"
@@ -379,11 +380,11 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                             required
                             value={formData.name}
                             onChange={handleChange}
-                            className="block rounded-[5px] px-2.5 pb-2.5 pt-[15px] pl-10 w-full text-sm border border-[#6a6a6a] appearance-none dark:focus:border-white-500 focus:outline-none focus:ring-0 focus:border-yellow-600 peer text-black"
+                            className="min-h-[48px] block rounded-[5px] px-2.5 pb-2.5 pt-[15px] pl-10 w-full text-sm border border-[#6a6a6a] appearance-none dark:focus:border-white-500 focus:outline-none focus:ring-0 focus:border-yellow-600 peer text-black"
                             placeholder=" "
                           />
                           <label
-                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-4 z-10 origin-[0] start-[38px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-3.5 z-10 origin-[0] start-[38px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                             htmlFor="name"
                           >
                             Full Name <span className="text-red-500">*</span>
@@ -395,6 +396,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.25 }}
+                        className="relative w-full md:w-[calc(50%-0.5rem)]"
                       >
                         <div className="relative">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none h-[48px]">
@@ -420,7 +422,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                             required
                             value={formData.email}
                             onChange={handleChange}
-                            className={`text-black block rounded-[5px] px-2.5 pb-2.5 pt-[15px] pl-10 w-full text-sm border ${
+                            className={`min-h-[48px] text-black block rounded-[5px] px-2.5 pb-2.5 pt-[15px] pl-10 w-full text-sm border ${
                               errors.email
                                 ? "border-red-500"
                                 : "border-[#6a6a6a]"
@@ -429,7 +431,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                           />
                           <label
                             htmlFor="email"
-                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-4 z-10 origin-[0] start-[38px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-3.5 z-10 origin-[0] start-[38px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                           >
                             Email Address{" "}
                             <span className="text-red-500">*</span>
@@ -446,12 +448,14 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.3 }}
+                        className="relative w-full md:w-[calc(50%-0.5rem)]"
                       >
                         <div className="relative">
+                          
+                         
                           <label
-                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-4 z-10 origin-[0] start-[15px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
-                            htmlFor="phone"
-                          >
+                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-3.5 z-10 origin-[0] start-[15px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            htmlFor="phone"                             >
                             Phone <span className="text-red-500">*</span>
                           </label>
                           <PhoneInput
@@ -459,7 +463,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                             defaultCountry={defaultCountry}
                             value={formData.phone}
                             onChange={handlePhoneChange}
-                            className={`react-phone-input-custom ${
+                            className={`min-h-[48px] react-phone-input-custom ${
                               errors.phone ? "error" : ""
                             }`}
                             placeholder="Enter phone number"
@@ -476,6 +480,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.4 }}
+                        className="relative w-full md:w-[calc(50%-0.5rem)]"
                       >
                         <div className="relative">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none h-[48px]">
@@ -500,7 +505,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                             name="service"
                             value={formData.service}
                             onChange={handleChange}
-                            className={`block rounded-[5px] font-medium text-[#0d2b4b] px-2.5 pb-2.5 pt-[15px] pl-10 w-full text-sm border ${
+                            className={`min-h-[48px] block rounded-[5px] font-medium text-[#0d2b4b] px-2.5 pb-2.5 pt-[15px] pl-10 w-full text-sm border ${
                               errors.service
                                 ? "border-red-500"
                                 : "border-[#6a6a6a]"
@@ -549,7 +554,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                             </svg>
                           </div>
                           <label
-                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-4 z-10 origin-[0] start-[15px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-3.5 z-10 origin-[0] start-[15px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                             htmlFor="service"
                           >
                             Service of Interest{" "}
@@ -567,7 +572,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.45 }}
-                        className="col-span-2"
+                        className="col-span-2 w-full"
                       >
                         <div className="relative">
                           <textarea
@@ -576,12 +581,12 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                             rows={4}
                             value={formData.message}
                             onChange={handleChange}
-                            className="text-black block rounded-[5px] px-2.5 pb-2.5 pt-[15px] pl-10 w-full text-sm border border-[#6a6a6a] appearance-none dark:focus:border-white-500 focus:outline-none focus:ring-0 focus:border-yellow-600 peer"
+                            className="block rounded-[5px] px-2.5 pb-2.5 pt-[15px] pl-4 w-full text-sm border border-[#6a6a6a] appearance-none dark:focus:border-white-500 focus:outline-none focus:ring-0 focus:border-yellow-600 peer"
                             placeholder=""
                           />
                           <label
                             htmlFor="Message"
-                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-4 z-10 origin-[0] start-[15px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            className="absolute block text-[#0d2b4b] bg-[#ffffff] font-medium mb-2 duration-300 transform -translate-y-6 scale-75 top-3.5 z-10 origin-[0] start-[15px] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
                           >
                             Message <span className="text-red-500">*</span>
                           </label>
@@ -597,7 +602,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.5 }}
-                        className="pt-2"
+                        className="pt-2 "
                       >
                         <button
                           type="submit"
@@ -639,7 +644,7 @@ const ContactFormModal: React.FC<ContactFormModalProps> = ({
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.6 }}
-                        className="text-center text-gray-400 text-xs col-span-2"
+                        className="text-center text-gray-400 text-xs col-span-2 w-full"
                       >
                         By submitting, you agree to our Privacy Policy and Terms
                         of Service

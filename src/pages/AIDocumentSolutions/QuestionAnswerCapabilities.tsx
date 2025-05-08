@@ -15,7 +15,7 @@ const QuestionAnswerCapabilities: React.FC = () => {
   };
   return (
     <>
-      <section className="Question-Capabilities-section pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Question-Capabilities-section pt-20 pb-20 md:pt-40 md:pb-32 relative">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -35,7 +35,7 @@ const QuestionAnswerCapabilities: React.FC = () => {
       </section>
 
       {/* New Features Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -223,7 +223,7 @@ const QuestionAnswerCapabilities: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 bg-white">
+      <section className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">

@@ -16,7 +16,7 @@ const Chatbots: React.FC = () => {
   return (
     <>
       {/* Hero Section - Keeping your original code */}
-      <section className="Chatbots_section pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Chatbots_section pt-20 pb-20 md:pt-40 md:pb-32 relative">
         <div className="absolute inset-0 bg-[#00000047s] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -36,7 +36,7 @@ const Chatbots: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-10 md:py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -127,7 +127,7 @@ const Chatbots: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16">
+      <section className="py-10 md:py-16">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -352,7 +352,7 @@ const Chatbots: React.FC = () => {
       </section>
 
       {/* Statistics Section - NEW */}
-      {/* <section className="py-16 bg-white">
+      {/* <section className="py-10 md:py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <span className="text-yellow-600 font-semibold">
@@ -694,7 +694,7 @@ const Chatbots: React.FC = () => {
       {/* Demo Section - NEW */}
       <section id="demo" className="py-20 bg-white">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 items-center">
             <div>
               <span className="text-yellow-600 font-semibold">
                 SEE IT IN ACTION
@@ -702,7 +702,7 @@ const Chatbots: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">
                 Experience Our Chatbot
               </h2>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-sm md:text-lg text-gray-600 mb-6">
                 Try our demo chatbot to see how it can transform your customer
                 interactions. Ask questions, get product recommendations, or
                 experience a simulated customer service scenario.
@@ -764,7 +764,7 @@ const Chatbots: React.FC = () => {
               </ul>
             </div>
 
-            <div className="bg-gray-50 p-8 rounded-xl shadow-lg">
+            <div className="bg-gray-50 p-8 rounded-[5px] shadow-lg">
               <div className="bg-white rounded-lg shadow-sm p-4 mb-4">
                 <div className="flex items-center justify-between mb-4">
                   <h4 className="font-medium">Demo Chatbot</h4>

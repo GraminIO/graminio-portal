@@ -40,7 +40,7 @@ const Blog: React.FC = () => {
   };
 
   return (
-    <>
+    <><div className="overall_section bg-[#ededed]">
       {/* HERO SECTION */}
       <section className="relative h-96 overflow-hidden">
         <div
@@ -75,7 +75,7 @@ const Blog: React.FC = () => {
           {currentPosts.map((post) => (
             <article
               key={post.id}
-              className="bg-white rounded-lg shadow-sm overflow-hidden blog-card"
+              className="bg-white rounded-md shadow-sm overflow-hidden blog-card"
             >
               <div className="h-52 overflow-hidden">
                 <img
@@ -85,6 +85,10 @@ const Blog: React.FC = () => {
                 />
               </div>
               <div className="p-6">
+              <div className="flex items-center mb-3">
+                          <span className="bg-blue-100 text-primary text-xs font-medium px-3 py-1 rounded-[5px]">Technology</span>
+                          <span className="text-gray-500 text-sm ml-auto">April 25, 2025</span>
+                        </div>
                 {/* <div className="flex items-center mb-3">
                   <span className="bg-blue-100 text-primary text-xs font-medium px-3 py-1 rounded-[5px]">
                     {post.category}
@@ -93,7 +97,7 @@ const Blog: React.FC = () => {
                     {post.date}
                   </span>
                 </div> */}
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                <h3 className="text-xl font-bold text-gray-900 mb-2 blog-title">
                   {post.title}
                 </h3>
                 <p className="text-gray-600 mb-4">{post.excerpt}</p>
@@ -173,6 +177,7 @@ const Blog: React.FC = () => {
           </div>
         </div>
       </section> */}
+      </div>
     </>
   );
 };

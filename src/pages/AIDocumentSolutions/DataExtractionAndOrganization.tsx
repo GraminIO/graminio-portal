@@ -37,7 +37,7 @@ const DataExtractionAndOrganization : React.FC= () => {
       </section>
 
       {/* Main Service Overview */}
-      <section id="service-overview" className="py-20 bg-white">
+      <section id="service-overview" className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Data Extraction and Organization Service</h2>
@@ -145,7 +145,7 @@ const DataExtractionAndOrganization : React.FC= () => {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 bg-gray-50">
+      <section id="features" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Key Features</h2>
@@ -225,7 +225,7 @@ const DataExtractionAndOrganization : React.FC= () => {
       </section>
 
       {/* How It Works */}
-      <section id="how-it-works" className="py-20 bg-white">
+      <section id="how-it-works" className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">How Our Data Extraction Works</h2>
@@ -237,7 +237,7 @@ const DataExtractionAndOrganization : React.FC= () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Step 1 */}
             <div className="bg-white p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
+              <div className="absolute top-1 left-4 md:-top-4 md:-left-4 w-7 h-7 md:w-10 md:h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm md:text-lg">1</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4 pt-4">Document Upload</h3>
               <p className="text-gray-600 mb-4">
                 Upload your documents through our secure portal, API, or integrations with your existing document storage systems.
@@ -249,7 +249,7 @@ const DataExtractionAndOrganization : React.FC= () => {
 
             {/* Step 2 */}
             <div className="bg-white p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg">2</div>
+              <div className="absolute top-1 left-4 md:-top-4 md:-left-4 w-7 h-7 md:w-10 md:h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm md:text-lg">2</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4 pt-4">AI Processing</h3>
               <p className="text-gray-600 mb-4">
                 Our AI algorithms analyze the documents, identify key data fields, and extract relevant information with high accuracy.
@@ -261,7 +261,7 @@ const DataExtractionAndOrganization : React.FC= () => {
 
             {/* Step 3 */}
             <div className="bg-white p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
+              <div className="absolute top-1 left-4 md:-top-4 md:-left-4 w-7 h-7 md:w-10 md:h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm md:text-lg">3</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4 pt-4">Data Export</h3>
               <p className="text-gray-600 mb-4">
                 Access structured data through our dashboard, download in your preferred format, or integrate directly with your business systems.
@@ -275,7 +275,7 @@ const DataExtractionAndOrganization : React.FC= () => {
       </section>
 
       {/* Use Cases */}
-      <section id="use-cases" className="py-20 bg-gray-50">
+      <section id="use-cases" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Data Extraction Use Cases</h2>

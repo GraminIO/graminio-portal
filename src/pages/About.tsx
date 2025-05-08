@@ -14,42 +14,29 @@ const About: React.FC = () => {
   };
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative h-screen text-white">
-        {/* Background overlay and image */}
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-blue-950/80 z-10"></div>
-          <div className="absolute inset-0 bg-[url('/Background.jpg')] bg-cover bg-center z-0"></div>
-        </div>
-
-        {/* Content */}
-        <div className="container mx-auto px-4 h-full relative z-20">
-          <div className="flex h-full items-center">
-            <div className="w-full md:w-2/3 lg:w-1/2">
-              <span className="inline-block bg-yellow-600 mt-20 px-4 py-1 rounded-[5px] text-white text-sm font-semibold mb-6 shadow-md">
+     {/* Hero Section */}
+     <section className="hero-section pt-10 pb-20 md:pt-30 md:pb-32 relative bg-[url('/Background.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-blue-950/80 z-10"></div>
+        <div className="container mx-auto px-6 w-full relative z-[99]">
+          <div className="max-w-2xl text-white">
+          <span className="inline-block bg-yellow-600 mt-20 px-4 py-1 rounded-[5px] text-white text-sm font-semibold mb-6 shadow-md">
                 AI-Powered Language Solutions
               </span>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight drop-shadow-lg">
-                Breaking Language Barriers Through Innovation
-              </h1>
-              <p className="text-xl mb-8 text-gray-100">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              <span className=""> Breaking Language Barriers Through Innovation</span>
+            </h1>
+            <p className="text-xl mb-8 text-gray-100">
                 We're a team of language technology experts dedicated to
                 creating seamless communication solutions that connect people
                 across the globe in real-time.
               </p>
-              <div className="flex flex-wrap gap-4">
-                {/* <button
-                  onClick={() => navigate("/contact")}
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white px-6 py-3 rounded-[5px] font-medium shadow-md transition duration-300"
-                >
-                  Learn More
-                </button> */}
-                <RequestDemoButton onClick={() => openModal("demo")} />
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4">
+            <RequestDemoButton onClick={() =>openModal("demo")}/>
             </div>
           </div>
         </div>
       </section>
+
 
       {/* Mission and Vision Section */}
       <section className="py-16 bg-gray-200">
@@ -466,7 +453,7 @@ const About: React.FC = () => {
               <div className="flex flex-wrap justify-center gap-4">
                 <button
                   onClick={() => openModal("demo")}
-                  className="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-medium transition duration-300"
+                  className="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-[5px] font-medium transition duration-300"
                 >
                   Schedule a Demo
                 </button>

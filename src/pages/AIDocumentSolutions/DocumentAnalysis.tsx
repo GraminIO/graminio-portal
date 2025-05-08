@@ -15,7 +15,7 @@ const DocumentAnalysis: React.FC = () => {
   };
   return (
     <div className="bg-white min-h-screen">
-      <section className="Document_Analysis_hero pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Document_Analysis_hero pt-20 pb-20 md:pt-40 md:pb-32 relative">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -37,7 +37,7 @@ const DocumentAnalysis: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">
@@ -192,7 +192,7 @@ const DocumentAnalysis: React.FC = () => {
       </section>
 
       {/* Process Section */}
-      <section className="py-20">
+      <section className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">
@@ -291,7 +291,7 @@ const DocumentAnalysis: React.FC = () => {
       </section>
 
       {/* Technology Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+      <section className="py-10 md:py-20 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">
@@ -434,7 +434,7 @@ const DocumentAnalysis: React.FC = () => {
       </section>
 
       {/* Benefits Section - Replacing Industry Solutions */}
-      <section className="py-20 bg-white">
+      <section className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Key Benefits</h2>
@@ -579,7 +579,7 @@ const DocumentAnalysis: React.FC = () => {
       </section>
 
       {/* Testimonials Section - New Section */}
-      {/* <section className="py-20 bg-gray-50">
+      {/* <section className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">What Our Clients Say</h2>

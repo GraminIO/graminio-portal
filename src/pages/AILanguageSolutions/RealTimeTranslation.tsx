@@ -52,7 +52,7 @@ const RealTimeTranslation: React.FC = () => {
       </section>
 
       {/* Service Overview */}
-      <section id="overview" className="py-20">
+      <section id="overview" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -103,7 +103,7 @@ const RealTimeTranslation: React.FC = () => {
       </section>
 
       {/* Translation Demo */}
-      <section id="demo" className="py-20 bg-gray-100">
+      <section id="demo" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -156,9 +156,10 @@ const RealTimeTranslation: React.FC = () => {
               </a> */}
             </div>
 
-            <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center gap-3">
+            <div className="lg:w-1/2 bg-white">
+            <div className="p-6 rounded-lg shadow-md">
+              <div className="flex flex-wrap  items-center justify-between mb-6">
+                <div className="flex  items-center gap-3">
                   <div className="relative">
                     <select
                       id="sourceLanguage"
@@ -195,7 +196,7 @@ const RealTimeTranslation: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center mt-5 md:mt-0 gap-2">
                   <label className="custom-switch">
                     <input type="checkbox" checked />
                     <span className="switch-slider"></span>
@@ -246,13 +247,14 @@ const RealTimeTranslation: React.FC = () => {
                   Translate
                 </button>
               </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Translation Methods */}
-      <section id="methods" className="py-20">
+      <section id="methods" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -347,7 +349,7 @@ const RealTimeTranslation: React.FC = () => {
       </section>
 
       {/* Industry Solutions */}
-      <section id="industries" className="py-20 bg-gray-100">
+      <section id="industries" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -428,7 +430,7 @@ const RealTimeTranslation: React.FC = () => {
       </section>
 
       {/* Testimonials */}
-      {/* <section id="testimonials" className="py-20 bg-gray-100">
+      {/* <section id="testimonials" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">

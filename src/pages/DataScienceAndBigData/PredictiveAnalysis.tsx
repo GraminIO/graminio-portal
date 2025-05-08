@@ -31,7 +31,7 @@ const PredictiveAnalysis: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="predictive_Analytics-section pt-28 pb-20 md:pt-40 md:pb-32 relative bg-[url('/Predictive-Analytics-Solutions_bg.jpg')] bg-cover bg-center">
+      <section className="predictive_Analytics-section pt-20 pb-20 md:pt-40 md:pb-32 relative bg-[url('/Predictive-Analytics-Solutions_bg.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -57,10 +57,10 @@ const PredictiveAnalysis: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-50">
+      <section id="features" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-2xl md:text-4xl font-bold mb-4">
               Transform Data Into Predictive Insights
             </h2>
             <p className="text-lg text-gray-600">
@@ -123,11 +123,11 @@ const PredictiveAnalysis: React.FC = () => {
       </section>
 
       {/* Predictive Modeling Section */}
-      <section id="modeling" className="py-20">
+      <section id="modeling" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-2xl md:text-4xl font-bold mb-6">
                 Advanced Predictive Modeling
               </h2>
               <p className="text-lg text-gray-600 mb-8">
@@ -196,7 +196,7 @@ const PredictiveAnalysis: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4 mb-6">
+                <div className="grid md:grid-cols-2 gap-4 mb-6">
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <div className="text-sm text-gray-500 mb-1">Accuracy</div>
                     <div className="text-2xl font-bold text-blue-600">
@@ -243,10 +243,10 @@ const PredictiveAnalysis: React.FC = () => {
                   <div className="flex items-center justify-between mb-3">
                     <h4 className="font-medium">Prediction Confidence</h4>
                     <div className="flex items-center gap-2">
-                      <span className="text-xs px-2 py-1 bg-blue-100 text-blue-600 rounded-full">
+                      <span className="text-xs px-2 py-1 bg-blue-100 text-blue-600 rounded-[5px]">
                         7 days
                       </span>
-                      <span className="text-xs px-2 py-1 bg-gray-100 text-gray-600 rounded-full">
+                      <span className="text-xs px-2 py-1 bg-gray-100 text-gray-600 rounded-[5px]">
                         30 days
                       </span>
                     </div>
@@ -259,7 +259,7 @@ const PredictiveAnalysis: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center justify-between">
+                <div className="flex flex-wrap gap-y-[10px] items-center justify-between">
                   <button className="px-4 py-2 text-sm border border-gray-200 rounded hover:bg-gray-50">
                     Model Details
                   </button>
@@ -274,13 +274,13 @@ const PredictiveAnalysis: React.FC = () => {
       </section>
 
       {/* Industry Applications */}
-      <section id="applications" className="py-20 bg-gray-50">
+      <section id="applications" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-semibold">
+                  <h3 className="md:text-xl font-semibold">
                     Industry Applications
                   </h3>
                   <div className="relative">
@@ -350,7 +350,7 @@ const PredictiveAnalysis: React.FC = () => {
             </div>
 
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-2xl md:text-4xl font-bold mb-6">
                 Industry-Specific Predictive Solutions
               </h2>
               <p className="text-lg text-gray-600 mb-8">
@@ -411,11 +411,11 @@ const PredictiveAnalysis: React.FC = () => {
       </section>
 
       {/* Data Integration Section */}
-      <section id="integration" className="py-20">
+      <section id="integration" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              <h2 className="text-2xl md:text-4xl font-bold mb-6">
                 Seamless Data Integration
               </h2>
               <p className="text-lg text-gray-600 mb-8">
