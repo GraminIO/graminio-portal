@@ -31,7 +31,7 @@ const PredictiveAnalysis: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="predictive_Analytics-section pt-20 pb-20 md:pt-40 md:pb-32 relative bg-[url('/Predictive-Analytics-Solutions_bg.jpg')] bg-cover bg-center">
+      <section className="predictive_Analytics-section py-20 md:py-40 relative bg-[url('/Predictive-Analytics-Solutions_bg.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -59,8 +59,8 @@ const PredictiveAnalysis: React.FC = () => {
       {/* Features Overview */}
       <section id="features" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-2xl md:text-4xl font-bold mb-4">
+          <div className="text-center max-w-3xl mx-auto mb-5 lg:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Transform Data Into Predictive Insights
             </h2>
             <p className="text-lg text-gray-600">
@@ -127,7 +127,7 @@ const PredictiveAnalysis: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
-              <h2 className="text-2xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Advanced Predictive Modeling
               </h2>
               <p className="text-lg text-gray-600 mb-8">
@@ -350,7 +350,7 @@ const PredictiveAnalysis: React.FC = () => {
             </div>
 
             <div className="lg:w-1/2">
-              <h2 className="text-2xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Industry-Specific Predictive Solutions
               </h2>
               <p className="text-lg text-gray-600 mb-8">
@@ -415,7 +415,7 @@ const PredictiveAnalysis: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
-              <h2 className="text-2xl md:text-4xl font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Seamless Data Integration
               </h2>
               <p className="text-lg text-gray-600 mb-8">

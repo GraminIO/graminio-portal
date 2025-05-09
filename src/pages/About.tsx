@@ -15,11 +15,11 @@ const About: React.FC = () => {
   return (
     <>
      {/* Hero Section */}
-     <section className="hero-section pt-10 pb-20 md:pt-30 md:pb-32 relative bg-[url('/Background.jpg')] bg-cover bg-center">
+     <section className="hero-section py-20 md:py-40 relative bg-[url('/Background.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-blue-950/80 z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
-          <span className="inline-block bg-yellow-600 mt-20 px-4 py-1 rounded-[5px] text-white text-sm font-semibold mb-6 shadow-md">
+          <span className="inline-block bg-yellow-600 px-4 py-1 rounded-[5px] text-white text-sm font-semibold mb-6 shadow-md">
                 AI-Powered Language Solutions
               </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
@@ -39,7 +39,7 @@ const About: React.FC = () => {
 
 
       {/* Mission and Vision Section */}
-      <section className="py-16 bg-gray-200">
+      <section className="py-10 md:py-20 bg-gray-200">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
             {/* Our Mission */}
@@ -112,7 +112,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Core Values Section */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
@@ -294,7 +294,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Technology Section */}
-      <section className="py-16 bg-gray-200">
+      <section className="py-10 md:py-20 bg-gray-200">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
@@ -438,7 +438,7 @@ const About: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-white">
+      <section className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="bg-gradient-to-r from-yellow-50 to-blue-50 rounded-2xl p-8 md:p-12">
             <div className="max-w-3xl mx-auto text-center">

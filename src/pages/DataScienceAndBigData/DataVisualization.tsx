@@ -31,7 +31,7 @@ const DataVisualization: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="Data_Visualization-section pt-28 pb-20 md:pt-40 md:pb-32 relative bg-[url('/Data_Visualization_Solutions_bg.jpg')] bg-cover bg-center">
+      <section className="Data_Visualization-section py-20 md:py-40 relative bg-[url('/Data_Visualization_Solutions_bg.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-[#000000d4] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -57,9 +57,9 @@ const DataVisualization: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-50">
+      <section id="features" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-3xl mx-auto mb-5 lg:mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Powerful Visualization Capabilities
             </h2>
@@ -125,7 +125,7 @@ const DataVisualization: React.FC = () => {
       </section>
 
       {/* Dashboard Creation Section */}
-      <section id="dashboards" className="py-20">
+      <section id="dashboards" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -262,7 +262,7 @@ const DataVisualization: React.FC = () => {
       </section>
 
       {/* Chart Types Section */}
-      <section id="charts" className="py-20 bg-gray-50">
+      <section id="charts" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
@@ -377,7 +377,7 @@ const DataVisualization: React.FC = () => {
       </section>
 
       {/* Data Integration Section */}
-      <section id="integration" className="py-20">
+      <section id="integration" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">

@@ -31,7 +31,7 @@ const DataIntegrationServices: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="hero-section pt-28 pb-20 md:pt-40 md:pb-32 relative bg-[url('/Data-Integration-Services_bg.jpg')] bg-cover bg-center">
+      <section className="hero-section py-20 md:py-40 relative bg-[url('/Data-Integration-Services_bg.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-[#000000c3] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -57,9 +57,9 @@ const DataIntegrationServices: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-50">
+      <section id="features" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-3xl mx-auto mb-5 lg:mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Comprehensive Data Integration Capabilities
             </h2>
@@ -127,7 +127,7 @@ const DataIntegrationServices: React.FC = () => {
       </section>
 
       {/* Integration Platform Section */}
-      <section id="platform" className="py-20">
+      <section id="platform" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -185,7 +185,7 @@ const DataIntegrationServices: React.FC = () => {
               </a> */}
             </div>
 
-            <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
+            <div className="w-full lg:w-1/2 bg-white p-2 lg:p-6 rounded-lg shadow-md">
               <div className="flex items-center justify-between mb-6">
                 <h3 className="font-medium">Integration Workflow Designer</h3>
                 <div className="flex items-center gap-2">
@@ -258,7 +258,7 @@ const DataIntegrationServices: React.FC = () => {
       </section>
 
       {/* Connectors Section */}
-      <section id="connectors" className="py-20 bg-gray-50">
+      <section id="connectors" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
@@ -281,7 +281,7 @@ const DataIntegrationServices: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid md:grid-cols-2 gap-4">
                   <div className="p-4 border border-gray-200 rounded-lg hover:border-green-200 hover:bg-green-50 transition-colors">
                     <div className="flex items-center gap-3 mb-3">
                       <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
@@ -400,7 +400,7 @@ const DataIntegrationServices: React.FC = () => {
       </section>
 
       {/* Data Transformation Section */}
-      <section id="transformation" className="py-20">
+      <section id="transformation" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -459,7 +459,7 @@ const DataIntegrationServices: React.FC = () => {
 
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
               <div className="mb-6">
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex flex-wrap items-center justify-between mb-4">
                   <h3 className="text-xl font-semibold">
                     Transformation Builder
                   </h3>
@@ -473,8 +473,8 @@ const DataIntegrationServices: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="h-64 bg-gray-50 rounded-lg p-4 mb-4 border border-gray-200">
-                  <div className="grid grid-cols-3 gap-4 h-full">
+                <div className="h-full md:h-64 bg-gray-50 rounded-lg p-4 mb-4 border border-gray-200">
+                  <div className="grid md:grid-cols-3 gap-4 h-full">
                     <div className="bg-white p-3 rounded border border-gray-200">
                       <div className="text-xs text-gray-500 mb-2">Input</div>
                       <div className="space-y-2">
@@ -526,7 +526,7 @@ const DataIntegrationServices: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center justify-between">
+                <div className="flex flex-wrap gap-2 items-center justify-between">
                   <button className="px-4 py-2 border border-gray-200 rounded hover:bg-gray-50">
                     Test Transformation
                   </button>

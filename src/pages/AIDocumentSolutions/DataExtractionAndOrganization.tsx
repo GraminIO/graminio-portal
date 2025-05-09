@@ -18,7 +18,7 @@ const DataExtractionAndOrganization : React.FC= () => {
 
      <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="Data-Extraction-section pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Data-Extraction-section py-20 md:py-40 relative">
         <div className="absolute inset-0 bg-[#000000c2] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -39,7 +39,7 @@ const DataExtractionAndOrganization : React.FC= () => {
       {/* Main Service Overview */}
       <section id="service-overview" className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-5 lg:mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Data Extraction and Organization Service</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our AI-powered data extraction platform converts unstructured document content into structured, actionable data formats that integrate seamlessly with your business systems.
@@ -147,7 +147,7 @@ const DataExtractionAndOrganization : React.FC= () => {
       {/* Features Section */}
       <section id="features" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-5 lg:mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Key Features</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our data extraction service combines advanced AI with practical workflows to deliver accurate, valuable data from any document type.
@@ -227,7 +227,7 @@ const DataExtractionAndOrganization : React.FC= () => {
       {/* How It Works */}
       <section id="how-it-works" className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-5 lg:mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">How Our Data Extraction Works</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               A simple, powerful process that transforms your documents into structured data with minimal effort.

@@ -29,7 +29,7 @@ body {
 .hero_voice_section{
   background-image: url("/voice_language_translation_bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 .language_hero_section{
   background-image: url("/language_learning_supports.jpg");
@@ -44,7 +44,7 @@ body {
 .Document_Analysis_hero{
   background-image: url("/Document_Analysis_bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 .Automated_Summarization-section {
   background-image: url("/Automated_Summarization_bg.jpg");

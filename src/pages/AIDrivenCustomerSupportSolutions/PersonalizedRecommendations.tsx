@@ -15,8 +15,8 @@ const PersonalizedRecommendations: React.FC = () => {
   };
   return (
     <>
-      <section className="Recommendations-section pt-20 pb-20 md:pt-40 md:pb-32 relative">
-        <div className="absolute inset-0 bg-[#000000c4] z-10"></div>
+      <section className="Recommendations-section py-20 md:py-40 relative">
+        <div className="absolute inset-0 bg-[#00000091] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
@@ -35,9 +35,9 @@ const PersonalizedRecommendations: React.FC = () => {
       </section>
 
       {/* How It Works Section */}
-      <section id="how-it-works" className="py-10 md:py-16 bg-white">
+      <section id="how-it-works" className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
+          <div className="text-center mb-5 lg:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">How It Works</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our advanced algorithm learns from your preferences and behaviors
@@ -51,7 +51,7 @@ const PersonalizedRecommendations: React.FC = () => {
               <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-yellow-200"></div>
 
               {/* Step 1 */}
-              <div className="relative mb-12">
+              <div className="relative mb-5 lg:mb-12">
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="flex-1 md:pr-8 md:text-right order-2 md:order-1">
                     <h3 className="text-xl font-semibold mb-2">
@@ -80,7 +80,7 @@ const PersonalizedRecommendations: React.FC = () => {
               </div>
 
               {/* Step 2 */}
-              <div className="relative mb-12">
+              <div className="relative mb-5 lg:mb-12">
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="flex-1 md:pr-8 order-2 md:order-1">
                     <div className="bg-gray-100 p-4 rounded-lg shadow-sm">
@@ -109,7 +109,7 @@ const PersonalizedRecommendations: React.FC = () => {
               </div>
 
               {/* Step 3 */}
-              <div className="relative mb-12">
+              <div className="relative mb-5 lg:mb-12">
                 <div className="flex flex-col md:flex-row items-center">
                   <div className="flex-1 md:pr-8 md:text-right order-2 md:order-1">
                     <h3 className="text-xl font-semibold mb-2">
@@ -170,9 +170,9 @@ const PersonalizedRecommendations: React.FC = () => {
         </div>
       </section>
 
-      {/* <section className="py-10 md:py-16 bg-white">
+      {/* <section className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
+          <div className="text-center mb-5 lg:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">What Our Users Say</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Discover how our personalized recommendations have transformed the
@@ -251,9 +251,9 @@ const PersonalizedRecommendations: React.FC = () => {
       </section> */}
 
       {/* Features Section */}
-      <section className="py-10 md:py-16 bg-blue-50">
+      <section className="py-10 md:py-20 bg-blue-50">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
+          <div className="text-center mb-5 lg:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Advanced Recommendation Features
             </h2>

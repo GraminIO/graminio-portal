@@ -43,7 +43,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      <section className="py-8 lg:py-12">
+      <section className="py-10 lg:py-20 bg-gray-100">
         <div>
           <div className="container mx-auto px-4">
             <div className="mb-10">
@@ -68,13 +68,13 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="flex gap-4 pr-4">
             <div className="flex flex-1 gap-5">
-              <div className="flex flex-1 items-center justify-center text-center bg-white rounded-[20px] text-white p-5 border border-[#eaeaea] ">
+              <div className="flex flex-1 items-center justify-center text-center bg-white rounded-[10px] md:rounded-[20px] text-white p-3 md:p-5 border border-[#eaeaea] ">
                 <img  width="200"src="/vehere_logo.png" alt="logo" />
               </div>
-              <div className="flex flex-1 items-center justify-center text-center bg-white rounded-[20px] text-white p-5 border border-[#eaeaea] ">
+              <div className="flex flex-1 items-center justify-center text-center bg-white rounded-[10px] md:rounded-[20px] text-white p-3 md:p-5 border border-[#eaeaea] ">
                 <img  width="200"src="/unefyi_logo.png" alt="logo" />
               </div>
-              <div className="flex flex-1 items-center justify-center text-center bg-white rounded-[20px] text-white p-5 border border-[#eaeaea] ">
+              <div className="flex flex-1 items-center justify-center text-center bg-white rounded-[10px] md:rounded-[20px] text-white p-3 md:p-5 border border-[#eaeaea] ">
                 <img width="200" src="/tiblo_logo.png" alt="logo" />
               </div>             
             </div>
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      <section className="py-4 lg:py-12">
+      <section className="py-10 md:py-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div
@@ -222,7 +222,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      <section className="py-12 lg:py-12 bg-gray-100">
+      <section className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="inline-block text-gray-500 uppercase text-sm font-semibold tracking-wide pl-8 relative before:content-[''] before:absolute before:h-4 before:w-4 before:top-1/2 before:-translate-y-1/2 before:left-0 before:bg-[url(/tag-star.webp)] bg-no-repeat bg-center bg-contain">
@@ -333,7 +333,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      <section className="py-12 xl:py-12">
+      <section className="py-10 md:py-20">
         <div className="container mx-auto px-4">
           <div className="bg-black rounded-xl py-8 md:py-12 px-4 md:px-6 lg:px-8 bg-[url(/cta-illustration_1.webp)] bg-no-repeat bg-contain bg-right">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">

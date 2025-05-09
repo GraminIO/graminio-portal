@@ -15,7 +15,7 @@ const SentimentAnalysis: React.FC = () => {
   };
   return (
     <>
-      <section className="Sentiment_Analysis-section pt-20 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Sentiment_Analysis-section py-20 md:py-40 relative">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -33,9 +33,9 @@ const SentimentAnalysis: React.FC = () => {
         </div>
       </section>
       {/* Use Cases Section */}
-      <section className="py-10 md:py-16 bg-white">
+      <section className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
+          <div className="text-center mb-5 md:mb-16">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Sentiment Analysis Use Cases
             </h2>
@@ -167,7 +167,7 @@ const SentimentAnalysis: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-10 md:py-16 bg-gray-50">
+      <section className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">

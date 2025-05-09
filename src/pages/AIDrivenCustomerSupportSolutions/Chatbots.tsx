@@ -16,7 +16,7 @@ const Chatbots: React.FC = () => {
   return (
     <>
       {/* Hero Section - Keeping your original code */}
-      <section className="Chatbots_section pt-20 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Chatbots_section py-20 md:py-40 relative">
         <div className="absolute inset-0 bg-[#00000047s] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -36,9 +36,9 @@ const Chatbots: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-10 md:py-16 bg-gray-50">
+      <section className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
+          <div className="text-center mb-5 lg:mb-5 lg:mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Advanced Chatbot Features
             </h2>
@@ -127,9 +127,9 @@ const Chatbots: React.FC = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-10 md:py-16">
+      <section className="py-10 md:py-20">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
+          <div className="text-center mb-5 lg:mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Chatbot Solutions For Every Need
             </h2>
@@ -256,9 +256,9 @@ const Chatbots: React.FC = () => {
           </div>
         </div>
       </section>
-      <section id="features" className="py-20 bg-gray-50">
+      <section id="features" className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
+          <div className="text-center mb-5 md:mb-16">
             <span className="text-yellow-600 font-semibold">
               CORE CAPABILITIES
             </span>
@@ -352,9 +352,9 @@ const Chatbots: React.FC = () => {
       </section>
 
       {/* Statistics Section - NEW */}
-      {/* <section className="py-10 md:py-16 bg-white">
+      {/* <section className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
+          <div className="text-center mb-5 lg:mb-12">
             <span className="text-yellow-600 font-semibold">
               PROVEN RESULTS
             </span>
@@ -397,9 +397,9 @@ const Chatbots: React.FC = () => {
         </div>
       </section> */}
 
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
+          <div className="text-center mb-5 md:mb-16">
             <span className="text-yellow-600 font-semibold">APPLICATIONS</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
               Chatbot Solutions For Every Need
@@ -553,9 +553,9 @@ const Chatbots: React.FC = () => {
       </section>
 
       {/* Integration Section with improved design */}
-      <section className="py-20 bg-gradient-to-l from-primary to-secondary text-white">
+      <section className="py-10 md:py-20 bg-gradient-to-l from-primary to-secondary text-white">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
+          <div className="text-center mb-5 md:mb-16">
             <span className="text-yellow-400 font-semibold">CONNECTIVITY</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
               Seamless Integration
@@ -692,7 +692,7 @@ const Chatbots: React.FC = () => {
       </section>
 
       {/* Demo Section - NEW */}
-      <section id="demo" className="py-20 bg-white">
+      <section id="demo" className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 items-center">
             <div>

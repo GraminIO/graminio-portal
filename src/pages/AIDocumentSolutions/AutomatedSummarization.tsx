@@ -16,7 +16,7 @@ const AutomatedSummarization: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="Automated_Summarization-section pt-20 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Automated_Summarization-section py-20 md:py-40 relative">
         <div className="absolute inset-0 bg-[#000000a8] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">

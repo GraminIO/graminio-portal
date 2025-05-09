@@ -31,7 +31,7 @@ const MultiPlatformAccessibility: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="multimedia_hear_section pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="multimedia_hear_section py-20 md:py-40 relative">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -51,7 +51,7 @@ const MultiPlatformAccessibility: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-200">
+      <section id="features" className="py-10 md:py-20 bg-gray-200">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -145,7 +145,7 @@ const MultiPlatformAccessibility: React.FC = () => {
       </section>
 
       {/* Platform Showcase */}
-      <section id="platforms" className="py-20">
+      <section id="platforms" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -315,7 +315,7 @@ const MultiPlatformAccessibility: React.FC = () => {
       </section>
 
       {/* Synchronization */}
-      <section id="sync" className="py-20 bg-gray-200">
+      <section id="sync" className="py-10 md:py-20 bg-gray-200">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
@@ -510,7 +510,7 @@ const MultiPlatformAccessibility: React.FC = () => {
       </section>
 
       {/* Enterprise Solutions */}
-      <section id="enterprise" className="py-20">
+      <section id="enterprise" className="py-10 md:py-20">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
