@@ -30,7 +30,7 @@ const Microservices: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="hero-section pt-28 pb-20 md:pt-40 md:pb-32 relative  relative bg-[url('/Microservices-Architecture-bg.jpg')] bg-cover bg-center">
+      <section className="hero-section py-10 md:py-40 relative  relative bg-[url('/Microservices-Architecture-bg.jpg')] bg-cover bg-center">
       <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -50,7 +50,7 @@ const Microservices: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-200">
+      <section id="features" className="py-10 md:py-20 bg-gray-200">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -113,7 +113,7 @@ const Microservices: React.FC = () => {
       {/* Microservices Architecture */}
       <section id="architecture" className="py-20">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col lg:flex-row items-center gap-5 md:gap-12">
             <div className="lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Modern Microservices Architecture
@@ -177,7 +177,7 @@ const Microservices: React.FC = () => {
       </section>
 
       {/* Migration Process */}
-      <section id="migration" className="py-20 bg-gray-200">
+      <section id="migration" className="py-10 md:py-20 bg-gray-200">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
@@ -295,7 +295,7 @@ const Microservices: React.FC = () => {
       {/* Technology Stack */}
       <section id="technology" className="py-20">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col lg:flex-row items-center gap-5 md:gap-12">
             <div className="lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Cutting-Edge Technology Stack
@@ -305,7 +305,7 @@ const Microservices: React.FC = () => {
                 microservices architectures tailored to your specific needs.
               </p>
 
-              <div className="grid grid-cols-2 gap-6 mb-8">
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="tech-card bg-white p-4 rounded-lg shadow-sm border border-gray-100">
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center">
@@ -410,7 +410,7 @@ const Microservices: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex items-center justify-between">
+              <div className="flex items-center flex-wrap gap-5 justify-between">
                 <span className="text-gray-600">Next technology assessment in 2 weeks</span>
                 <button className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
                   Discuss Stack
@@ -422,7 +422,7 @@ const Microservices: React.FC = () => {
       </section>
 
       {/* DevOps Integration */}
-      <section id="devops" className="py-20 bg-gray-200">
+      <section id="devops" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -461,10 +461,10 @@ const Microservices: React.FC = () => {
                       </div>
                     </div>
 
-                    <button className="text-primary font-medium hover:underline flex items-center">
+                    {/* <button className="text-primary font-medium hover:underline flex items-center">
                       View all tools
                       <i className="ri-arrow-right-s-line ri-lg ml-1"></i>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>

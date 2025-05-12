@@ -42,7 +42,7 @@ const Blog: React.FC = () => {
   return (
     <><div className="overall_section bg-[#ededed]">
       {/* HERO SECTION */}
-      <section className="relative h-96 overflow-hidden">
+      <section className="relative py-10 md:py-40 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{

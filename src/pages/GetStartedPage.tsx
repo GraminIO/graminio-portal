@@ -69,7 +69,7 @@ const GetStartedPage: React.FC = () => {
     <div className="min-h-screen text-white">
       {/* Hero Section */}
       <motion.div
-        className="relative  pt-28 pb-20 md:pt-40 md:pb-32 relative bg-[url('/contact_us_bg.jpg')] bg-cover bg-center"
+        className="relative py-10 md:py-40 relative bg-[url('/contact_us_bg.jpg')] bg-cover bg-center"
         initial="hidden"
         animate="visible"
         variants={gradientBackground}
@@ -166,7 +166,7 @@ const GetStartedPage: React.FC = () => {
 
       {/* Value Proposition Section */}
       <motion.div
-        className="py-10 md:py-24 bg-white"
+        className="py-10 md:py-20  bg-white"
         initial="hidden"
         animate="visible"
         variants={fadeIn}
@@ -330,7 +330,7 @@ const GetStartedPage: React.FC = () => {
       </div> */}
 
       {/* Contact Options Section */}
-      <div className="py-10 md:py-24 bg-white">
+      <div className="py-10 md:py-20  bg-white">
         <div className="container mx-auto px-4">
           <motion.div
             className="text-center mb-10 md:mb-20"
@@ -471,7 +471,7 @@ const GetStartedPage: React.FC = () => {
       </div>
 
       {/* Interactive Contact Form Section */}
-      <div className="py-10 md:py-24 bg-gradient-to-br from-yellow-50 to-white">
+      <div className="py-10 md:py-20  bg-gradient-to-br from-yellow-50 to-white">
         <div className="container mx-auto px-4">
           <motion.div
             className="text-center mb-10 md:mb-20"
@@ -578,7 +578,7 @@ const GetStartedPage: React.FC = () => {
       </div>
 
       {/* FAQ Section */}
-      <div className="py-10 md:py-24 bg-white">
+      <div className="py-10 md:py-20  bg-white">
         <div className="container mx-auto px-4">
           <motion.div
             className="text-center mb-10 md:mb-20"
@@ -601,7 +601,7 @@ const GetStartedPage: React.FC = () => {
           </motion.div>
 
           <motion.div
-            className="max-w-4xl mx-auto"
+            className="grid lg:grid-cols-2 gap-8"
             variants={container}
             initial="hidden"
             animate="show"
@@ -669,6 +669,8 @@ const GetStartedPage: React.FC = () => {
               </motion.div>
             ))}
 
+            
+            </motion.div>
             <motion.div className="text-center mt-16" variants={item}>
               <p className="text-gray-600 mb-8 text-xl">
                 Still have questions?
@@ -681,7 +683,6 @@ const GetStartedPage: React.FC = () => {
               >
                 Contact Our Support Team
               </motion.button>
-            </motion.div>
           </motion.div>
         </div>
       </div>

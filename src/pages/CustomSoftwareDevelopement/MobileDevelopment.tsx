@@ -31,7 +31,7 @@ const MobileDevelopment: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="hero-section pt-28 pb-20 md:pt-40 md:pb-32 relative bg-[url('/Mobile-App-Development.jpg')] bg-cover bg-center">
+      <section className="hero-section py-10 md:py-40 relative bg-[url('/Mobile-App-Development.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -51,7 +51,7 @@ const MobileDevelopment: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-200">
+      <section id="features" className="py-10 md:py-20  bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -120,7 +120,7 @@ const MobileDevelopment: React.FC = () => {
       </section>
 
       {/* Native App Development */}
-      <section id="native" className="py-20">
+      <section id="native" className="py-10 md:py-20 ">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -186,7 +186,7 @@ const MobileDevelopment: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex items-center justify-center gap-6 mb-8">
+              <div className="flex items-center justify-between gap-6 mb-8">
                 <div className="platform-card p-4 border border-gray-200 rounded-lg text-center hover:border-primary transition-all cursor-pointer">
                   <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-3">
                     <i className="ri-apple-fill text-3xl text-gray-800"></i>
@@ -261,10 +261,10 @@ const MobileDevelopment: React.FC = () => {
       </section>
 
       {/* Cross-Platform Development */}
-      <section id="cross-platform" className="py-20 bg-gray-200">
+      <section id="cross-platform" className="py-10 md:py-20  bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
-            <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
+            <div className="w-full lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center justify-between mb-6 pb-4 border-b">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-medium">
@@ -447,7 +447,7 @@ export default App;`}
       </section>
 
       {/* App Design Process */}
-      <section id="design" className="py-20">
+      <section id="design" className="py-10 md:py-20 ">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -596,7 +596,7 @@ export default App;`}
                 </div>
               </div>
 
-              <div className="flex items-center justify-between">
+              <div className="flex flex-wrap gap-5 items-center justify-between">
                 <span className="text-gray-600">Next review in 2 days</span>
                 <button className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
                   View Prototype
@@ -608,7 +608,7 @@ export default App;`}
       </section>
 
       {/* App Development Process */}
-      <section id="process" className="py-20 bg-gray-200">
+      <section id="process" className="py-10 md:py-20  bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -633,7 +633,7 @@ export default App;`}
                 <div className="bg-white p-6 rounded-lg shadow-md relative z-10">
                   <div className="mb-6">
                     <img
-                      src="https://public.readdy.ai/ai/img_res/f37d6e3a9e611d888a1479a7da274a25.jpg"
+                      src="/mobile_app_dvelopment_12.jpg"
                       alt="App development process"
                       className="w-full h-auto rounded object-cover"
                     />
@@ -661,10 +661,10 @@ export default App;`}
                       </div>
                     </div>
 
-                    <button className="text-primary font-medium hover:underline flex items-center">
+                    {/* <button className="text-primary font-medium hover:underline flex items-center">
                       View full process
                       <i className="ri-arrow-right-s-line ri-lg ml-1"></i>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>

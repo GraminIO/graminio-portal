@@ -30,7 +30,7 @@ const ERPCRMSolutions: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="hero-section pt-28 pb-20 md:pt-40 md:pb-32 relative bg-[url('/Custom-ERP-CRM-Solutions-bg.jpg')] bg-cover bg-center">
+      <section className="hero-section py-10 md:py-40 relative bg-[url('/Custom-ERP-CRM-Solutions-bg.jpg')] bg-cover bg-center">
       <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -48,7 +48,7 @@ const ERPCRMSolutions: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-200">
+      <section id="features" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -108,7 +108,7 @@ const ERPCRMSolutions: React.FC = () => {
       </section>
 
       {/* ERP Solutions */}
-      <section id="erp" className="py-20">
+      <section id="erp" className="py-10 md:py-20 ">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -172,7 +172,7 @@ const ERPCRMSolutions: React.FC = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4 mb-6">
+              <div className="grid md:grid-cols-2 gap-4 mb-6">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm text-gray-600">Inventory Value</span>
@@ -251,12 +251,12 @@ const ERPCRMSolutions: React.FC = () => {
       </section>
 
       {/* CRM Solutions */}
-      <section id="crm" className="py-20 bg-gray-200">
+      <section id="crm" className="py-10 md:py-20  bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center justify-between mb-6 pb-4 border-b">
-                <div className="flex items-center gap-3">
+                <div className="flex flex-wrap items-center gap-3">
                   <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-medium">
                     AC
                   </div>
@@ -283,8 +283,8 @@ const ERPCRMSolutions: React.FC = () => {
               </div>
 
               <div className="mb-6">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-1/3">
+                <div className="flex flex-wrap items-center gap-4 mb-4">
+                  <div className="w-full md:w-1/3">
                     <p className="text-sm text-gray-500 mb-1">Stage</p>
                     <div className="relative">
                       <select
@@ -302,11 +302,11 @@ const ERPCRMSolutions: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="w-1/3">
+                  <div className="w-full md:w-1/3">
                     <p className="text-sm text-gray-500 mb-1">Probability</p>
                     <div className="bg-gray-100 px-3 py-2 rounded text-sm font-medium">75%</div>
                   </div>
-                  <div className="w-1/3">
+                  <div className="w-full md:w-1/3">
                     <p className="text-sm text-gray-500 mb-1">Expected Close</p>
                     <div className="bg-gray-100 px-3 py-2 rounded text-sm font-medium">Jun 15, 2023</div>
                   </div>
@@ -442,7 +442,7 @@ const ERPCRMSolutions: React.FC = () => {
       </section>
 
       {/* Integration Capabilities */}
-      <section id="integration" className="py-20">
+      <section id="integration" className="py-10 md:py-20 ">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -507,7 +507,7 @@ const ERPCRMSolutions: React.FC = () => {
                 </button>
               </div>
 
-              <div className="grid grid-cols-2 gap-4 mb-6">
+              <div className="grid md:grid-cols-2 gap-4 mb-6">
                 <div className="integration-card p-4 border border-gray-200 rounded-lg flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
                     <i className="ri-mail-line text-blue-600 ri-lg"></i>
@@ -587,7 +587,7 @@ const ERPCRMSolutions: React.FC = () => {
       </section>
 
       {/* Industry Solutions */}
-      <section id="industries" className="py-20 bg-gray-200">
+      <section id="industries" className="py-10 md:py-20  bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">

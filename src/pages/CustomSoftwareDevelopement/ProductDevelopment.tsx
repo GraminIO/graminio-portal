@@ -31,7 +31,7 @@ const ProductDevelopment: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="hero-section pt-28 pb-20 md:pt-40 md:pb-32 relative  relative bg-[url('/Product-Development-bg.jpg')] bg-cover bg-center">
+      <section className="hero-section py-20 md:py-40 relative  relative bg-[url('/Product-Development-bg.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -51,7 +51,7 @@ const ProductDevelopment: React.FC = () => {
       </section>
 
       {/* Features Overview */}
-      <section id="features" className="py-20 bg-gray-200">
+      <section id="features" className="py-10 md:py-20 bg-gray-200">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -114,7 +114,7 @@ const ProductDevelopment: React.FC = () => {
       </section>
 
       {/* Development Process */}
-      <section id="process" className="py-20">
+      <section id="process" className="py-10 md:py-20 ">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
@@ -289,7 +289,7 @@ const ProductDevelopment: React.FC = () => {
       </section>
 
       {/* Technology Stack */}
-      <section id="technology" className="py-20 bg-gray-200">
+      <section id="technology" className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 bg-white p-6 rounded-lg shadow-md">
@@ -300,7 +300,7 @@ const ProductDevelopment: React.FC = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h4 className="font-medium mb-3 flex items-center gap-2">
                     <i className="ri-smartphone-line text-blue-600"></i>
@@ -483,7 +483,7 @@ const ProductDevelopment: React.FC = () => {
       </section>
 
       {/* Case Studies */}
-      <section id="cases" className="py-20">
+      <section id="cases" className="py-10 md:py-20 ">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
