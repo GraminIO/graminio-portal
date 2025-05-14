@@ -17,9 +17,9 @@ const FutureOfComputerVision: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-800 to-transparent opacity-90"></div>
+      <section className=" relative py-20 md:py-40 flex items-center bg-[url('/The-Future-Computer-Vision.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-[#00000057] z-10">
+          <div className="absolute inset-0 opacity-90"></div>
         </div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-xl text-white">

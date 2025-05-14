@@ -15,7 +15,7 @@ const EmbracingTheFutureWithAI: React.FC = () => {
   };
   return (
     <div className="bg-white min-h-screen">
-      <section className="Automated_Summarization-section pt-28 pb-20 md:pt-40 md:pb-32 relative">
+      <section className="Automated_Summarization-section py-20 md:py-40 relative">
         <div className="absolute inset-0 bg-[#000000a8] z-10"></div>
         <div className="container mx-auto px-6 w-full relative z-[99]">
           <div className="max-w-2xl text-white">
@@ -42,7 +42,7 @@ const EmbracingTheFutureWithAI: React.FC = () => {
             {/* Image Section */}
             <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
               <img
-                src="/Embracing_the_Future_with_AI.jpeg"
+                src="/AI-Revolution.jpg"
                 alt="AI Revolution"
                 className="rounded-xl shadow-lg"
               />

@@ -46,7 +46,7 @@ const Blog: React.FC = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/99ee1a691f85297348f435db8d3c63c9.jpg')",
+            backgroundImage: "url('/blog_banner.jpg')",
           }}
         ></div>
 
@@ -66,7 +66,7 @@ const Blog: React.FC = () => {
       </section>
 
       {/* BLOG LIST SECTION */}
-      <section className="container mx-auto px-6 py-12">
+      <section className="container mx-auto px-6 py-10 md:py-20" >
         <h2 className="text-3xl font-bold text-gray-900 mb-10">
           Latest Articles
         </h2>

@@ -16,10 +16,8 @@ const LargeLanguageModels: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-800 to-transparent opacity-90"></div>
-        </div>
+      <section className="relative py-20 md:py-40 relative bg-[url('/Large-Language-Models.jpg')] bg-cover bg-center flex items-center">
+        <div className="absolute inset-0 bg-[#00000096] z-10"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-xl text-white">
             <h1 className="text-5xl font-bold mb-6 leading-tight">
@@ -326,7 +324,7 @@ const LargeLanguageModels: React.FC = () => {
       </section>
 
       {/* Leading LLM Models Section */}
-      <section className="py-20 bg-blue-900 text-white">
+      <section className="py-20 text-black">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-4">
             Leading LLM Models
@@ -336,7 +334,7 @@ const LargeLanguageModels: React.FC = () => {
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Model 1 */}
-            <div className="bg-white/10 backdrop-blur-md p-8 rounded-xl hover:bg-white/20 transition duration-300">
+            <div className="bg-[#0d2b4b] backdrop-blur-md p-8 rounded-xl hover:bg-[#0d2b4b]/80 transition duration-300 text-white">
               <h3 className="text-2xl font-bold mb-4">GPT-4</h3>
               <p className="mb-4 opacity-80">
                 OpenAI's most advanced system, excelling at complex reasoning,
@@ -350,7 +348,7 @@ const LargeLanguageModels: React.FC = () => {
               </div>
             </div>
             {/* Model 2 */}
-            <div className="bg-white/10 backdrop-blur-md p-8 rounded-xl hover:bg-white/20 transition duration-300">
+            <div className="bg-[#0d2b4b] backdrop-blur-md p-8 rounded-xl hover:bg-[#0d2b4b]/80 transition duration-300 text-white">
               <h3 className="text-2xl font-bold mb-4">Claude 3</h3>
               <p className="mb-4 opacity-80">
                 Anthropic's flagship model with exceptional comprehension and
@@ -364,7 +362,7 @@ const LargeLanguageModels: React.FC = () => {
               </div>
             </div>
             {/* Model 3 */}
-            <div className="bg-white/10 backdrop-blur-md p-8 rounded-xl hover:bg-white/20 transition duration-300">
+            <div className="bg-[#0d2b4b] backdrop-blur-md p-8 rounded-xl hover:bg-[#0d2b4b]/80 transition duration-300 text-white">
               <h3 className="text-2xl font-bold mb-4">PaLM 2</h3>
               <p className="mb-4 opacity-80">
                 Google's advanced language model with superior reasoning and

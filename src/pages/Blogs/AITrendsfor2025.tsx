@@ -16,9 +16,9 @@ const AITrendsFor2025: React.FC = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center">
+      <section className="relative py-20 md:py-40 flex items-center bg-[url('/10-Most-Important-AI.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-800 to-transparent opacity-90"></div>
+          <div className="absolute inset-0 bg-[#00000087] z-10"></div>
         </div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-xl text-white">

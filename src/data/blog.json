@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Embracing the Future with AI",
     "excerpt": "In today's rapidly evolving world, Artificial Intelligence (AI) is no longer just a concept from science fiction – it's transforming industries and reshaping our everyday lives.",
-    "image": "/Embracing_the_Future_with_AI.png",
+    "image": "/Automated_Summarization_bg.jpg",
     "category": "AI",
     "date": "April 25, 2025",
     "link": "/blog/embracing-the-future-with-ai"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "10 Most Important AI Trends for 2025",
     "excerpt": "As we move into 2024, the landscape of Artificial Intelligence continues to evolve at a breakneck pace. Here are the top 10 AI trends to follow.",
-    "image": "/10_Most_Important_AI_Trends_for_2024.png",
+    "image": "/10-Most-Important-AI.jpg",
     "category": "AI",
     "date": "April 22, 2025",
     "link": "/blog/ai-trends-for-2025"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "The Future of Computer Vision",
     "excerpt": "Computer vision, a cornerstone of artificial intelligence, is revolutionizing how machines interpret and interact with the visual world, the advancements in this field are truly exciting.",
-    "image": "/The_Future_of_Computer_Vision.png",
+    "image": "/The-Future-Computer-Vision.jpg",
     "category": "AI",
     "date": "April 20, 2025",
     "link": "/blog/future-of-computer-vision"
@@ -30,7 +30,7 @@
     "id": 4,
     "title": "The Future of Large Language Models",
     "excerpt": "Large Language Models (LLMs) like OpenAI's GPT-4 and others have transformed the way we interact with technology, from powering conversational AI to assisting in creative writing, coding, and more.",
-    "image": "/LLMS.jpg",
+    "image": "/Large-Language-Models.jpg",
     "category": "AI",
     "date": "April 18, 2025",
     "link": "/blog/large-language-models"
