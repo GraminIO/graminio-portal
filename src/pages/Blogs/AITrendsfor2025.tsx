@@ -77,7 +77,7 @@ const AITrendsFor2025: React.FC = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://th.bing.com/th/id/OIP.fg6iiviK9KFOK9Wgr7XAHQHaDt?rs=1&pid=ImgDetMain"
+                src="/Multimodal-AI-Systems.jpg"
                 alt="Multimodal AI"
                 className="rounded-lg shadow-xl"
               />
@@ -120,7 +120,8 @@ const AITrendsFor2025: React.FC = () => {
               </div>
             </div>
             <div className="md:w-1/2">
-              <img src="https://miro.medium.com/v2/resize:fit:1200/1*dt6z-0-s8Kf58-y89uQX-A.jpeg" />
+              <img src="/AI-Agents-Autonomous.jpg"  alt="Multimodal AI"
+                className="rounded-lg shadow-xl"/>
             </div>
           </div>
         </div>

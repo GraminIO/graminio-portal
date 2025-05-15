@@ -251,7 +251,7 @@ const MobileDevelopment: React.FC = () => {
                 <span className="text-sm text-gray-500">
                   Need both platforms?
                 </span>
-                <button className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
+                <button onClick={() => openModal("consultation")} className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
                   Discuss Project
                 </button>
               </div>
@@ -598,7 +598,7 @@ export default App;`}
 
               <div className="flex flex-wrap gap-5 items-center justify-between">
                 <span className="text-gray-600">Next review in 2 days</span>
-                <button className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
+                <button onClick={() => openModal("consultation")} className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
                   View Prototype
                 </button>
               </div>

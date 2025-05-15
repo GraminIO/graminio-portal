@@ -39,7 +39,7 @@ const About: React.FC = () => {
 
 
       {/* Mission and Vision Section */}
-      <section className="py-10 md:py-20 bg-gray-200">
+      <section className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
             {/* Our Mission */}
@@ -123,7 +123,7 @@ const About: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-5">
             {/* Innovation */}
             <div className="bg-white p-6 rounded-[10px] shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
               <div className="w-12 h-12 flex items-center justify-center bg-yellow-100 rounded-full mb-6">
@@ -204,9 +204,7 @@ const About: React.FC = () => {
                 integration and meaningful impact.
               </p>
             </div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
+         
             {/* Innovation */}
             <div className="bg-white p-6 rounded-[10px] shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
               <div className="w-12 h-12 flex items-center justify-center bg-yellow-100 rounded-full mb-6">
@@ -294,7 +292,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Technology Section */}
-      <section className="py-10 md:py-20 bg-gray-200">
+      <section className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">

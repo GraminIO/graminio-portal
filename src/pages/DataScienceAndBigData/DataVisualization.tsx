@@ -498,7 +498,7 @@ const DataVisualization: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="p-4 border border-dashed border-gray-300 rounded-lg hover:border-purple-200 hover:bg-purple-50 transition-colors cursor-pointer">
+                <div onClick={() => openModal("consultation")} className="p-4 border border-dashed border-gray-300 rounded-lg hover:border-purple-200 hover:bg-purple-50 transition-colors cursor-pointer">
                   <div className="flex items-center justify-center gap-2 text-purple-600">
                     <i className="ri-add-line"></i>
                     <span>Connect Data Source</span>

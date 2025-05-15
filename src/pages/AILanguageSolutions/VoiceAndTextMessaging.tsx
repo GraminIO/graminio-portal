@@ -646,11 +646,8 @@ const VoiceTextMessaging: React.FC = () => {
                 >
                   View API Documentation
                 </a> */}
-                <a
-                  onClick={() => openModal("consultation")}
-                  href="#"
-                  className="px-6 py-3 border border-primary text-primary font-medium rounded-[5px] hover:bg-primary/10 transition-colors text-center"
-                >
+                <a onClick={() => openModal("consultation")}                  
+                  className="cursor-pointer px-6 py-3 border border-primary text-primary font-medium rounded-[5px] hover:bg-primary/10 transition-colors text-center" >
                   Contact Sales
                 </a>
               </div>

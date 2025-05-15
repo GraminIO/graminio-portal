@@ -136,7 +136,7 @@ const DataExtractionAndOrganization : React.FC= () => {
                   </li>
                 </ul>
               </div>
-              <a onClick={() => openModal("demo")} href="#demo" className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-4 rounded-[5px] font-medium shadow-lg transition duration-300 inline-flex items-center w-auto self-start">
+              <a onClick={() => openModal("demo")}  className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-4 rounded-[5px] font-medium shadow-lg transition duration-300 inline-flex items-center w-auto self-start">
                 Schedule a Demo
               </a>
             </div>

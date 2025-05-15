@@ -23,7 +23,7 @@ const FutureOfComputerVision: React.FC = () => {
         </div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-xl text-white">
-            <h1 className="text-5xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
               The Future of Computer Vision
             </h1>
             <p className="text-xl mb-8">
@@ -39,10 +39,10 @@ const FutureOfComputerVision: React.FC = () => {
       </section>
 
       {/* Applications Section */}
-      <section className="py-20 bg-gray-100">
+      <section className="py-10 md:py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               Computer Vision in Action
             </h2>
             <p className="text-gray-600 text-lg">
@@ -52,7 +52,7 @@ const FutureOfComputerVision: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+            <div className="bg-white p-6 rounded-[5px] shadow hover:shadow-lg transition duration-300">
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-900 mb-4">
                 <Brain size={28} />
               </div>
@@ -65,7 +65,7 @@ const FutureOfComputerVision: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+            <div className="bg-white p-6 rounded-[5px] shadow hover:shadow-lg transition duration-300">
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-900 mb-4">
                 <Eye size={28} />
               </div>
@@ -78,7 +78,7 @@ const FutureOfComputerVision: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+            <div className="bg-white p-6 rounded-[5px] shadow hover:shadow-lg transition duration-300">
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-900 mb-4">
                 <Award size={28} />
               </div>
@@ -95,10 +95,10 @@ const FutureOfComputerVision: React.FC = () => {
       </section>
 
       {/* Technologies Section - NEW */}
-      <section className="py-20 bg-blue-50">
+      <section className="py-10 md:py-20 bg-blue-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               Core Technologies
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -108,7 +108,7 @@ const FutureOfComputerVision: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="flex flex-col md:flex-row items-start gap-4">
-              <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-200 text-blue-900 mt-1">
+              <div className="flex items-center justify-center h-7 w-8 rounded-[5px] bg-blue-200 text-blue-900 mt-1">
                 <Check size={24} />
               </div>
               <div>
@@ -124,7 +124,7 @@ const FutureOfComputerVision: React.FC = () => {
             </div>
 
             <div className="flex flex-col md:flex-row items-start gap-4">
-              <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-200 text-blue-900 mt-1">
+              <div className="flex items-center justify-center h-7 w-8 rounded-[5px] bg-blue-200 text-blue-900 mt-1">
                 <Check size={24} />
               </div>
               <div>
@@ -140,7 +140,7 @@ const FutureOfComputerVision: React.FC = () => {
             </div>
 
             <div className="flex flex-col md:flex-row items-start gap-4">
-              <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-200 text-blue-900 mt-1">
+              <div className="flex items-center justify-center h-7 w-8 rounded-[5px] bg-blue-200 text-blue-900 mt-1">
                 <Check size={24} />
               </div>
               <div>
@@ -156,7 +156,7 @@ const FutureOfComputerVision: React.FC = () => {
             </div>
 
             <div className="flex flex-col md:flex-row items-start gap-4">
-              <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-200 text-blue-900 mt-1">
+              <div className="flex items-center justify-center h-7 w-8 rounded-[5px] bg-blue-200 text-blue-900 mt-1">
                 <Check size={24} />
               </div>
               <div>

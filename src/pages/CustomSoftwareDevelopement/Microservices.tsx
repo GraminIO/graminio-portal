@@ -412,7 +412,7 @@ const Microservices: React.FC = () => {
 
               <div className="flex items-center flex-wrap gap-5 justify-between">
                 <span className="text-gray-600">Next technology assessment in 2 weeks</span>
-                <button className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
+                <button onClick={() => openModal("consultation")} className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
                   Discuss Stack
                 </button>
               </div>

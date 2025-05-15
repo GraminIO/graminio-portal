@@ -20,7 +20,7 @@ const LargeLanguageModels: React.FC = () => {
         <div className="absolute inset-0 bg-[#00000096] z-10"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-xl text-white">
-            <h1 className="text-5xl font-bold mb-6 leading-tight">
+            <h1 className="text-3xl md:text-4xl md:text-5xl font-bold mb-6 leading-tight">
               The Future of Large Language Models
             </h1>
             <p className="text-xl mb-8">
@@ -38,7 +38,7 @@ const LargeLanguageModels: React.FC = () => {
       {/* Benefits Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-4 text-blue-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-blue-900">
             Key Benefits of LLMs
           </h2>
           <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
@@ -209,7 +209,7 @@ const LargeLanguageModels: React.FC = () => {
       {/* Popular LLM Applications Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-4 text-blue-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-blue-900">
             Popular LLM Applications
           </h2>
           <p className="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
@@ -326,7 +326,7 @@ const LargeLanguageModels: React.FC = () => {
       {/* Leading LLM Models Section */}
       <section className="py-20 text-black">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Leading LLM Models
           </h2>
           <p className="text-xl text-center mb-12 max-w-3xl mx-auto opacity-80">

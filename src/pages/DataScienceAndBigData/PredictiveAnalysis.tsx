@@ -260,10 +260,10 @@ const PredictiveAnalysis: React.FC = () => {
                 </div>
 
                 <div className="flex flex-wrap gap-y-[10px] items-center justify-between">
-                  <button className="px-4 py-2 text-sm border border-gray-200 rounded hover:bg-gray-50">
+                  <button onClick={() => openModal("consultation")} className="px-4 py-2 text-sm border border-gray-200 rounded hover:bg-gray-50">
                     Model Details
                   </button>
-                  <button className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
+                  <button onClick={() => openModal("consultation")} className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
                     Generate New Predictions
                   </button>
                 </div>
@@ -555,7 +555,7 @@ const PredictiveAnalysis: React.FC = () => {
                 </div>
 
                 <div className="p-4 border border-dashed border-gray-300 rounded-lg hover:border-blue-200 hover:bg-blue-50 transition-colors cursor-pointer">
-                  <div className="flex items-center justify-center gap-2 text-blue-600">
+                  <div onClick={() => openModal("consultation")} className="flex items-center justify-center gap-2 text-blue-600">
                     <i className="ri-add-line"></i>
                     <span>Connect Data Source</span>
                   </div>

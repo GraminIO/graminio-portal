@@ -245,10 +245,10 @@ const DataIntegrationServices: React.FC = () => {
               </div>
 
               <div className="flex items-center justify-between">
-                <button className="px-4 py-2 border border-gray-200 rounded hover:bg-gray-50">
+                <button onClick={() => openModal("consultation")} className="px-4 py-2 border border-gray-200 rounded hover:bg-gray-50">
                   Save Draft
                 </button>
-                <button className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
+                <button onClick={() => openModal("consultation")} className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
                   Deploy Integration
                 </button>
               </div>
@@ -527,10 +527,10 @@ const DataIntegrationServices: React.FC = () => {
                 </div>
 
                 <div className="flex flex-wrap gap-2 items-center justify-between">
-                  <button className="px-4 py-2 border border-gray-200 rounded hover:bg-gray-50">
+                  <button onClick={() => openModal("consultation")} className="px-4 py-2 border border-gray-200 rounded hover:bg-gray-50">
                     Test Transformation
                   </button>
-                  <button className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
+                  <button onClick={() => openModal("consultation")} className="px-6 py-2 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 flex items-center">
                     Save Transformation
                   </button>
                 </div>

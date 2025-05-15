@@ -297,7 +297,7 @@ const LanguageLearningSupport: React.FC = () => {
                 </div>
               </div>
 
-              <button className="w-full py-3 bg-yellow-600 text-white font-medium rounded-lg hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300">
+              <button onClick={() => openModal("consultation")} className="px-8 py-3 bg-yellow-600 text-white font-medium rounded-[5px] hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300">
                 Continue Learning
               </button>
             </div>
